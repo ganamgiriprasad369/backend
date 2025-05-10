@@ -1,0 +1,13 @@
+# node modules
+node_modules/
+
+# dotenv environment file
+.env
+
+# logs (even if they don’t exist yet)
+*.log
+logs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
