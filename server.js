@@ -27,8 +27,8 @@ mongoose.connect(process.env.MONGO_URI)
 
 
 
-
-app.listen(process.env.PORT,()=>{
+const PORT = process.env.PORT || 4000;
+app.listen(PORT,()=>{
     console.log('server connected.. http://localhost:4000');
 })
 
